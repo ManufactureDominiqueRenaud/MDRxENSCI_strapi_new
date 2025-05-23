@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_homepage_carousels",
+  "info": {
+    "displayName": "carousel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "carouselImages": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_homepage_mdr_details",
+  "info": {
+    "displayName": "mdrDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

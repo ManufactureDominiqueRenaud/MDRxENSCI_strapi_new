@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_homepage_image_and_text_sections",
+  "info": {
+    "displayName": "imageAndTextSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph1": {
+      "type": "text"
+    },
+    "paragraph2": {
+      "type": "text"
+    },
+    "paragraph3": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isImageOnLeft": {
+      "type": "boolean",
+      "default": true
+    },
+    "isGrayBackground": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

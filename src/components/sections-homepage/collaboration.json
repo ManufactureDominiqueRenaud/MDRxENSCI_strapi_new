@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_homepage_collaborations",
+  "info": {
+    "displayName": "collaboration"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "ctaEnsci": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    },
+    "ctaPress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.link"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_homepage_atelier_projets",
+  "info": {
+    "displayName": "atelierProjet"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}

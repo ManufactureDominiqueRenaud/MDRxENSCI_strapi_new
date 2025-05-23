@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_homepage_hero_headers",
+  "info": {
+    "displayName": "heroHeader"
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "displayName": "slideHeroHeaderHome",
+      "type": "component",
+      "repeatable": true,
+      "component": "components-custom-homepage.slide-hero-header-home"
+    }
+  }
+}
