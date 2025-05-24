@@ -515,6 +515,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
 export interface ApiProjetProjet extends Struct.CollectionTypeSchema {
   collectionName: 'projets';
   info: {
+    description: '';
     displayName: 'projet';
     pluralName: 'projets';
     singularName: 'projet';
@@ -573,6 +574,7 @@ export interface ApiProjetProjet extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    slug: Schema.Attribute.String;
     studentList: Schema.Attribute.Component<
       'projects-components.student',
       true
